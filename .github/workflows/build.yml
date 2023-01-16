@@ -5,6 +5,7 @@ name: build
 
 on:
   push:
+    branches: [ main, develop, click-and-hold ]
   pull_request:
     branches: [ main, develop ]
 
