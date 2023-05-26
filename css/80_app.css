@@ -1536,7 +1536,11 @@ a.hide-toggle {
         border-color: #f1f1f1;
     }
 }
-.form-field-button.colour-selector {
+input.colour-selector {
+    visibility: hidden;
+    position: absolute;
+}
+input.date-selector {
     visibility: hidden;
     position: absolute;
 }
@@ -1671,6 +1675,12 @@ a.hide-toggle {
     border: 1px solid #ccd5e3;
     max-width: 100%;
     color: #7092ff;
+}
+.form-field-input-multicombo li.chip.negated span {
+    text-decoration: line-through;
+}
+.form-field-input-multicombo li.chip input {
+    width: 1em;
 }
 .ideditor[dir='ltr'] .form-field-input-multicombo li.chip {
     padding: 2px 0px 2px 5px;
